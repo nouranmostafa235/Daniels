@@ -1,0 +1,339 @@
+section {
+    padding: 80px 0px;
+    overflow: hidden;
+}
+p {
+    font-family: Poppins, sans-serif;
+}
+
+
+/* start home */
+#home {
+    background-image: url(../imgs/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+#home h1 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.layer {
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#home ul li {
+    width: 35px;
+    height: 35px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* end home */
+
+/* start about */
+.dots {
+    background-image: url(../imgs/dots.png);
+    min-width: 75%;
+    min-height: 75%;
+    right:130px;
+    top: 156px;
+     z-index: -1;  
+}
+.title-dots{
+    background-image: url(../imgs/dots.png);
+    width: 20%;
+    height: 53%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#about h2 {
+    font-family: 'Montserrat', sans-serif;
+    Color: #343434;
+    line-height: 33px;
+}
+
+#about p {
+    font-family: Poppins, sans-serif;
+    color: #999999;
+    line-height: 24px;
+    font-size: 15px;
+}
+
+.second-p {
+    color: #748182;
+}
+
+.progress {
+    height: 140px;
+}
+
+.buttons .first-btn {
+    background-color: black;
+    color: #fff;
+    transition: all;
+}
+
+.buttons .first-btn {
+    transition: all;
+
+}
+
+.buttons .first-btn:hover {
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+    transition-duration: 0.5s;
+}
+
+.buttons .second-btn:hover {
+    background-color: black;
+    color: #fff;
+    transition-duration: 0.5s;
+}
+/* end about */
+
+/* start services */
+.title{
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    line-height: 44px;
+    color: #343434;
+    font-size: 40px;
+}
+.card-body h4{
+    width: 65px;
+    height: 65px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color:#F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all;
+}
+
+.card:hover .card-body h4{
+    background-color: #343434;
+    color: #fff;
+    transition-duration:0.8s ;
+}
+.card-body p{
+font-family: Poppins, sans-serif ;
+font-size: 14px;
+line-height: 22px;
+}
+.card-body h5{
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #343434;
+    font-weight: 800;
+}
+/* end services */
+
+/* start work */
+.nav-pills .nav-link.active{
+    color: black;
+    background-color: transparent;
+}
+ #works .text .icon{
+    position: absolute;
+    top: 520%;
+    left: 30%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+
+}
+
+#works .text .icon:hover .ii{
+    color: black; 
+}
+#works .text .icon:hover{
+    background-color: #fff;
+    border: 1px solid black;
+}
+#works .text .icon-2{
+    position: absolute;
+    top: 520%;
+    left: 70%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+} 
+#works .text .icon-2:hover .ii{
+    color: black; 
+}
+#works .text .icon-2:hover{
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+#works .works-body .text {
+    top:120% ;
+    transition: all 0.6s ;
+}
+#works .works-body .layer{
+    transition: all 0.6s;
+}
+#works .works-body:hover .text{
+    top: 50%;
+}
+#works .works-body:hover .icon{
+    position: absolute;
+    top: 120%;
+    left: 30%;
+}
+#works .works-body:hover .icon-2{
+    position: absolute;
+    top: 120%;
+    left: 70%;
+}
+#works .works-body:hover .layer{
+   background-color: rgba(255, 255 , 255, 0.9) !important;
+}
+
+/* end work */
+/* start client */
+.client-content img{
+   width: 9%;
+}
+.client-content p{
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+.client-content h6{
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #343434;
+}
+.client-content span{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    color: #888888;
+}
+/* end client */
+/* start icons section */
+.icons-section .content .icon{
+ font-size: 30px;
+ line-height: 30px;
+}
+.icons-section .content .number{
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 33px;
+    color: #343434;
+}
+.icons-section .content .describtion{
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #748182;
+    line-height: 24px;
+}
+/* end icons section */
+/* start team section */
+#team .card .layer{
+    transform: scale(-0.5);
+    transition: all 0.7s;
+}
+#team .card:hover .layer{
+    background-color:rgba(255, 255, 255, 0.96) !important;
+    transform: rotateX(180deg);
+}
+ #team .card_image .image_on_card{
+    transition: all 0.7s;
+}
+#team .card_image:hover .image_on_card{
+    transform: scale(1.2);
+}
+#team .icons-on-layer{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transition: all 0.7s;
+}
+#team .card:hover .icons-on-layer{
+    top: 50%;
+    left: 50%;
+}
+#team .icons-on-layer ul li{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#team .icons-on-layer ul li:hover .ii{
+     color: black !important;
+}
+#team .icons-on-layer ul li:hover{
+    background-color: #fff;
+   
+    border: 1px solid black;
+}
+#team .card-body{
+    background-color: #5B5B5B;
+}
+#team .card-text{
+    font-family: Montserrat, sans-serif;
+    font-family: 500;
+    font-size: 25px;
+    line-height: 28px;
+}
+#team .card-body span{
+    font-family: Montserrat, sans-serif;
+    font-family: 700;
+    font-size: 20px;
+    line-height: 22px;
+}
+/* end team section */
+/* start contact section */
+#contact .content .icon{
+ width: 60px;
+ height: 60px;
+ border-radius: 50%;
+ background-color:#F2F2F2;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 20px;
+ transition: all 0.4s;
+}
+#contact .content:hover .icon{
+    background-color: #343434;
+}
+#contact .content:hover .ii{
+    color: #fff ;
+}
+/* end contact section */
+footer p{
+ font-family: Poppins, sans-serif;;
+ font-size: 13px;
+ line-height: 21px;
+ color: #748182;
+}
